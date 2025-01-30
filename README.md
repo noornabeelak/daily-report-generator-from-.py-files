@@ -34,7 +34,7 @@ This project automates the process of summarizing Python script files and sendin
 
 3. Create a `.json` file in the root directory and add your credentials:
 
-   ```json
+   ```bash
    EMAIL_API_KEY=your_google_api_key
    EMAIL_APP_PASSWORD=your_gmail_app_password
    ```
@@ -65,16 +65,14 @@ This project automates the process of summarizing Python script files and sendin
    ```
 
 ## Project Structure
-
-```
 .
 ├── main.py                # Main script to summarize and send emails
 ├── genai_summarizer.py    # Handles AI-based code summarization
 ├── send_email.py          # Manages email sending functionality
 ├── config.json            # Stores API keys and credentials (not included in repo)
+├── LICENSE                # License for the project
 └── README.md              # Project documentation
-|- LICENSE
-```
+
 
 ## Technologies Used
 

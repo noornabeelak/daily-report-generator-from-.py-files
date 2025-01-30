@@ -16,8 +16,8 @@ def send_email(sender_email, receiver_email, subject, email_content):
         email_content (str): Email body content.
     """
     try:
-        # Use an App Password instead of a normal password
-        app_password = config.get("app_password") #"kngf bsbb mhhe brns"  
+        
+        app_password = config.get("app_password")  
 
         # Set up SMTP server
         server = smtplib.SMTP_SSL("smtp.gmail.com", 465)

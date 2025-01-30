@@ -47,7 +47,7 @@ This project automates the process of summarizing Python script files and sendin
 
 ## Usage
 
-1. When you run the script, it will prompt you to enter:
+1. When you run the script (main.py) , it will prompt you to enter:
    - Path to the `.py` file
    - Sender email
    - Receiver email
@@ -65,6 +65,7 @@ This project automates the process of summarizing Python script files and sendin
    ```
 
 ## Project Structure
+```
 .
 ├── main.py                # Main script to summarize and send emails
 ├── genai_summarizer.py    # Handles AI-based code summarization
@@ -72,6 +73,7 @@ This project automates the process of summarizing Python script files and sendin
 ├── config.json            # Stores API keys and credentials (not included in repo)
 ├── LICENSE                # License for the project
 └── README.md              # Project documentation
+```
 
 
 ## Technologies Used

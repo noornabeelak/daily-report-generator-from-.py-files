@@ -1,4 +1,4 @@
-# Daily Report Generator from .py Files
+# 📩 Daily Report Generator from .py Files
 
 This project automates the process of summarizing Python script files and sending daily progress reports via email. It leverages Google's Generative AI (Gemini) to generate summaries and SMTP for email delivery.
 

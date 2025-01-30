@@ -69,11 +69,11 @@ This project automates the process of summarizing Python script files and sendin
 ```
 .
 ├── main.py                # Main script to summarize and send emails
-├── summarizer.py          # Handles AI-based code summarization
+├── genai_summarizer.py    # Handles AI-based code summarization
 ├── send_email.py          # Manages email sending functionality
 ├── config.json            # Stores API keys and credentials (not included in repo)
-├── requirements.txt       # Required dependencies
 └── README.md              # Project documentation
+|- LICENSE
 ```
 
 ## Technologies Used
